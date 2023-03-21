@@ -1,0 +1,106 @@
+To refresh this file, delete it and run /reload command again! Last updated: Mar 19, 2023, 6:26:48 PM
+
+#forge:lubricant
+- pneumaticcraft:lubricant (from pneumaticcraft-repressurized-1.19.2-4.3.3-22.jar)
+
+#forge:crude_oil
+- pneumaticcraft:oil (from pneumaticcraft-repressurized-1.19.2-4.3.3-22.jar)
+
+#minecraft:water
+- minecraft:water (from Default)
+- minecraft:flowing_water (from Default)
+- hexerei:blood_flowing (from hexerei-0.2.5.jar)
+- hexerei:blood_fluid (from hexerei-0.2.5.jar)
+- hexerei:tallow_flowing (from hexerei-0.2.5.jar)
+- hexerei:tallow_fluid (from hexerei-0.2.5.jar)
+- adpother:polluted_water_flowing (from AdPother-1.19.2-7.0.9.0-build.0803.jar)
+- adpother:polluted_water_still (from AdPother-1.19.2-7.0.9.0-build.0803.jar)
+- createaddition:flowing_seed_oil (from createaddition-1.19.2-20230315b.jar)
+- createaddition:seed_oil (from createaddition-1.19.2-20230315b.jar)
+
+#forge:biodiesel
+- car:bio_diesel? (from AdPother-1.19.2-7.0.9.0-build.0803.jar)
+- pneumaticcraft:biodiesel (from pneumaticcraft-repressurized-1.19.2-4.3.3-22.jar)
+
+#forge:milk
+- minecraft:milk? (from forge-1.19.2-43.2.7-universal.jar)
+- minecraft:flowing_milk? (from forge-1.19.2-43.2.7-universal.jar)
+
+#forge:biofuel
+- ic2:bio_fuel? (from AdPother-1.19.2-7.0.9.0-build.0803.jar)
+- createaddition:flowing_bioethanol (from createaddition-1.19.2-20230315b.jar)
+- createaddition:bioethanol (from createaddition-1.19.2-20230315b.jar)
+
+#pneumaticcraft:seismic_sensor_interesting
+- #forge:crude_oil (from pneumaticcraft-repressurized-1.19.2-4.3.3-22.jar)
+
+#twilightforest:fire_jet_fuel
+- #minecraft:lava (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#forge:plantoil
+- pneumaticcraft:vegetable_oil (from pneumaticcraft-repressurized-1.19.2-4.3.3-22.jar)
+- createaddition:flowing_seed_oil (from createaddition-1.19.2-20230315b.jar)
+- createaddition:seed_oil (from createaddition-1.19.2-20230315b.jar)
+
+#vampirism:vampirism_blood
+- vampirism:blood (from Vampirism-1.19.2-1.9.3.jar)
+
+#minecraft:lava
+- minecraft:lava (from Default)
+- minecraft:flowing_lava (from Default)
+- hexerei:quicksilver_flowing (from hexerei-0.2.5.jar)
+- hexerei:quicksilver_fluid (from hexerei-0.2.5.jar)
+
+#forge:ethanol
+- pneumaticcraft:ethanol (from pneumaticcraft-repressurized-1.19.2-4.3.3-22.jar)
+
+#create:bottomless/deny
+
+#forge:chocolate
+- create:flowing_chocolate (from create-1.19.2-0.5.0.i.jar)
+- create:chocolate (from create-1.19.2-0.5.0.i.jar)
+
+#create:bottomless/allow
+- minecraft:water (from create-1.19.2-0.5.0.i.jar)
+- minecraft:lava (from create-1.19.2-0.5.0.i.jar)
+
+#forge:polluted_water
+- adpother:polluted_water_flowing (from AdPother-1.19.2-7.0.9.0-build.0803.jar)
+- adpother:polluted_water_still (from AdPother-1.19.2-7.0.9.0-build.0803.jar)
+
+#forge:gasoline
+- pneumaticcraft:gasoline (from pneumaticcraft-repressurized-1.19.2-4.3.3-22.jar)
+
+#forge:experience
+- pneumaticcraft:memory_essence (from pneumaticcraft-repressurized-1.19.2-4.3.3-22.jar)
+
+#forge:tea
+- create:flowing_tea (from create-1.19.2-0.5.0.i.jar)
+- create:tea (from create-1.19.2-0.5.0.i.jar)
+
+#forge:diesel
+- pneumaticcraft:diesel (from pneumaticcraft-repressurized-1.19.2-4.3.3-22.jar)
+
+#vampirism:vampirism_impure_blood
+- vampirism:impure_blood (from Vampirism-1.19.2-1.9.3.jar)
+
+#pneumaticcraft:yeast_culture
+- pneumaticcraft:yeast_culture (from pneumaticcraft-repressurized-1.19.2-4.3.3-22.jar)
+
+#pneumaticcraft:plastic
+- pneumaticcraft:plastic (from pneumaticcraft-repressurized-1.19.2-4.3.3-22.jar)
+
+#pneumaticcraft:etching_acid
+- pneumaticcraft:etching_acid (from pneumaticcraft-repressurized-1.19.2-4.3.3-22.jar)
+
+#forge:kerosene
+- pneumaticcraft:kerosene (from pneumaticcraft-repressurized-1.19.2-4.3.3-22.jar)
+
+#forge:honey
+- create:flowing_honey (from create-1.19.2-0.5.0.i.jar)
+- create:honey (from create-1.19.2-0.5.0.i.jar)
+
+#forge:creosote
+
+#forge:lpg
+- pneumaticcraft:lpg (from pneumaticcraft-repressurized-1.19.2-4.3.3-22.jar)
