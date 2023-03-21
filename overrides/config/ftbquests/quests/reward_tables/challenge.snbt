@@ -1,0 +1,34 @@
+{
+	id: "7E92C23222D74B9C"
+	order_index: 0
+	title: "challenge"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "alexsmobs:dimensional_carver"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "twilightforest:carminite_block" }
+		{ item: "silentgems:ruby" }
+		{ item: "artifacts:mimic_spawn_egg" }
+		{ item: "aquaculture:neptunium_block" }
+		{ item: "randomium:randomium_ore" }
+		{ item: "aquaculture:treasure_chest" }
+		{ item: "minecraft:nether_star" }
+		{
+			item: {
+				id: "supplementaries:bubble_blower"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "silentgear:metal_alloyer" }
+	]
+}
