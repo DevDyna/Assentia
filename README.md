@@ -1,4 +1,4 @@
-#Description:
+# Description:
 
 Many modpacks have a "early game" when you craft a crafting table , place down and craft what you need or after many "stages" you can craft a crafting table.
 
@@ -10,7 +10,7 @@ and only at the end of all obtain your first crafting table!
 
  
 
-#Feature:
+# Feature:
 
 - Crafting table is been removed
 
@@ -22,7 +22,7 @@ and only at the end of all obtain your first crafting table!
 
  
 
- 
+ ___
 
  
 
