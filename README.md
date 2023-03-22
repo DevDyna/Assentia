@@ -27,3 +27,4 @@ and only at the end of all obtain your first crafting table!
  
 
 Ispired from Ultimate Alchemy , Amnesia and various "primitive ages" simil  SevTech:Ages but much differents methods! 
+Download available only on CurseForge : https://www.curseforge.com/minecraft/modpacks/assentia
