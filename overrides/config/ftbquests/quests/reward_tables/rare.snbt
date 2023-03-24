@@ -1,0 +1,21 @@
+{
+	id: "0C6739D5B6318819"
+	order_index: 4
+	title: "rare"
+	loot_size: 1
+	rewards: [
+		{ item: "twilightforest:carminite_block" }
+		{ item: "twilightforest:fiery_block" }
+		{ item: "twilightforest:knightmetal_block" }
+		{ item: "twilightforest:steeleaf_block" }
+		{ item: "minecraft:emerald_block" }
+		{ item: "minecraft:copper_block" }
+		{ item: "minecraft:iron_block" }
+		{ item: "minecraft:slime_block" }
+		{ item: "minecraft:redstone_block" }
+		{ item: "minecraft:gold_block" }
+		{ item: "create:brass_block" }
+		{ item: "twilightforest:arctic_fur_block" }
+		{ item: "minecraft:honey_block" }
+	]
+}

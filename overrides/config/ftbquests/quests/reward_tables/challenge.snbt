@@ -1,0 +1,85 @@
+{
+	id: "7E92C23222D74B9C"
+	order_index: 0
+	title: "legendary"
+	loot_size: 1
+	rewards: [
+		{ item: "artifacts:mimic_spawn_egg" }
+		{ item: "aquaculture:neptunium_block" }
+		{ item: "randomium:randomium_ore" }
+		{ item: "minecraft:nether_star" }
+		{ item: "silentgear:metal_alloyer" }
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s
+						id: "apotheosis:capturing"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "evilcraft:broom"
+				Count: 1b
+				tag: {
+					Fluid: {
+						FluidName: "evilcraft:blood"
+						Amount: 10000
+					}
+					capacity: 10000
+				}
+				ForgeCaps: {
+					Parent: {
+						FluidName: "evilcraft:blood"
+						Amount: 10000
+						capacity: 10000
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "enigmaticlegacy:enigmatic_elytra"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:netherite_block" }
+		{
+			item: {
+				id: "create:extendo_grip"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "enigmaticlegacy:mending_mixture" }
+		{
+			item: {
+				id: "apotheosis:potion_charm"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Potion: "minecraft:long_fire_resistance"
+				}
+			}
+		}
+		{ item: "enigmaticlegacy:the_infinitum" }
+		{
+			item: {
+				id: "gateways:gate_pearl"
+				Count: 1b
+				tag: {
+					gateway: "apotheosis:boss_gate_small"
+				}
+			}
+		}
+	]
+}
