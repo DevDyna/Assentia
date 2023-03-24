@@ -461,7 +461,7 @@ event.stonecutting('ae2:terminal','#forge:better_table')
 })
 
 ServerEvents.tags('item', event => {
-	
+	//stonecutter tag
 	event.add('forge:better_table','ae2:terminal')
 	event.add('forge:better_table','ae2:crafting_terminal')
 	event.add('forge:better_table','storagenetwork:crafting_remote')
