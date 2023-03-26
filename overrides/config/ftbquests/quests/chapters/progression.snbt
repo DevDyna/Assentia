@@ -1,0 +1,1034 @@
+{
+	id: "5DFA5E7BDF685CB9"
+	group: ""
+	order_index: 1
+	filename: "progression"
+	title: "1. Exploration and trading"
+	icon: "minecraft:grass_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	hide_quest_details_until_startable: true
+	quests: [
+		{
+			x: -1.5d
+			y: 7.0d
+			subtitle: "A easy backpack"
+			dependencies: ["0AD67C68B2727D52"]
+			id: "1572E8A150EB36BF"
+			tasks: [{
+				id: "1AB2B53ABFD03F76"
+				type: "item"
+				item: "pneumaticcraft:reinforced_chest"
+			}]
+			rewards: [{
+				id: "420B98383F907887"
+				type: "item"
+				item: "pneumaticcraft:reinforced_chest"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 5.5d
+			subtitle: "Loot table , you need to find and charge!"
+			dependencies: ["0AD67C68B2727D52"]
+			id: "60E9735266CB8659"
+			tasks: [{
+				id: "0255317CBD2FE3E1"
+				type: "item"
+				item: "pneumaticcraft:amadron_tablet"
+			}]
+			rewards: [{
+				id: "376B04D889BAEBCB"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Cloud Storage"
+			x: 8.0d
+			y: -0.5d
+			subtitle: "A simple storage wireless , click with your colored balloon on a storage and this fly away to increase your storage!"
+			dependencies: ["6F1790336272430D"]
+			hide: true
+			id: "7718FB6A620CC96F"
+			tasks: [{
+				id: "07768B73EBD5631D"
+				type: "item"
+				item: "cloudstorage:cloud_chest"
+			}]
+			rewards: [{
+				id: "09390D1C5E30153E"
+				type: "item"
+				item: "minecraft:chest"
+				count: 32
+			}]
+		}
+		{
+			title: "Create Again"
+			x: 10.5d
+			y: -0.5d
+			subtitle: "SEE JEI / Ponder \\n You like create? well , I not much so all description of create are gone! (except essentials)"
+			dependencies: ["6F1790336272430D"]
+			hide: true
+			id: "2A170FE0F20F96CD"
+			tasks: [{
+				id: "02E6009BCE254A51"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+			rewards: [{
+				id: "78170CBA5C7B79C3"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8145935918277424335L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 1.0d
+			dependencies: ["2A170FE0F20F96CD"]
+			id: "4C239A5031921050"
+			tasks: [{
+				id: "19E8F9B1C7FC8A6B"
+				type: "item"
+				item: "create:andesite_casing"
+			}]
+			rewards: [{
+				id: "7DE63D2DB32B390E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8145935918277424335L
+			}]
+		}
+		{
+			title: "Witch Expansion?"
+			x: 4.5d
+			y: -4.0d
+			subtitle: "On swamp randomly spawn a witch hut full of stuff of hexerei"
+			dependencies: ["6F1790336272430D"]
+			id: "137E122BCC215372"
+			tasks: [{
+				id: "301466F337D6456F"
+				type: "structure"
+				title: "Find a witch hut (not vanilla)"
+				icon: "hexerei:mixing_cauldron"
+				structure: "hexerei:witch_hut"
+			}]
+			rewards: [{
+				id: "7CC5E7A123FD71C8"
+				type: "random"
+				table_id: 3405488285271889572L
+			}]
+		}
+		{
+			title: "Dark side of sun"
+			x: 6.0d
+			y: -2.5d
+			subtitle: "A stranger way to trade"
+			dependencies: ["6F1790336272430D"]
+			id: "6AF36A8CDA56803D"
+			tasks: [{
+				id: "02B8B0D93AE641D3"
+				type: "observation"
+				title: "Observe a vampire villager"
+				icon: "vampirism:vampire_fang"
+				timer: 0L
+				observe_type: 5
+				to_observe: "vampirism:villager_converted"
+			}]
+			rewards: [{
+				id: "6DF54490D60FB52C"
+				type: "random"
+				table_id: 3405488285271889572L
+			}]
+		}
+		{
+			title: "Loot from ice"
+			x: 4.5d
+			y: 1.0d
+			subtitle: "Rarely spawn on frozen rivers various blocks of ice with inside item!"
+			dependencies: ["5AA60C98E5CB64B3"]
+			id: "1C73B5BA191ACD45"
+			tasks: [{
+				id: "65C4396A6C68B046"
+				type: "observation"
+				title: "Observe a ice"
+				icon: "minecraft:ice"
+				timer: 0L
+				observe_type: 0
+				to_observe: "minecraft:ice"
+			}]
+			rewards: [{
+				id: "55F194A9C98AA2FD"
+				type: "random"
+				table_id: 8829484904615250113L
+			}]
+		}
+		{
+			x: 12.0d
+			y: 1.0d
+			dependencies: ["4C239A5031921050"]
+			id: "6505BA0060CC4CDB"
+			tasks: [
+				{
+					id: "24D09349DD3A3A84"
+					type: "item"
+					item: "create:large_cogwheel"
+				}
+				{
+					id: "24D6510E436F1D29"
+					type: "item"
+					item: "create:cogwheel"
+				}
+			]
+			rewards: [{
+				id: "39F54E821D4FC759"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8145935918277424335L
+			}]
+		}
+		{
+			title: "Blocks without compact?"
+			x: 4.5d
+			y: 7.0d
+			subtitle: "You can obtain by spend a diamond to exchange a deepslate ore into raw ore block"
+			dependencies: ["3936D7805996F2A0"]
+			id: "0BDBF8411417FD2C"
+			tasks: [
+				{
+					id: "02F28C4F906F1548"
+					type: "item"
+					item: "minecraft:raw_iron_block"
+				}
+				{
+					id: "4F46ABAB69E8C9F9"
+					type: "item"
+					item: "minecraft:raw_copper_block"
+				}
+			]
+			rewards: [
+				{
+					id: "7C5ADA5F89914A8E"
+					type: "item"
+					item: "minecraft:raw_copper_block"
+				}
+				{
+					id: "11971AD72F53FDD3"
+					type: "item"
+					item: "minecraft:raw_iron_block"
+				}
+				{
+					id: "3A20C254524CC9D1"
+					type: "random"
+					table_id: 8829484904615250113L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "geolosys:field_manual"
+				}
+			}
+			x: 16.0d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["4517C37B082C1D5E"]
+			can_repeat: true
+			id: "4FAE3BB725A43452"
+			tasks: [{
+				id: "48A486EEFB33A7F3"
+				type: "checkmark"
+				title: "Geolosys"
+			}]
+			rewards: [{
+				id: "7B163C06AF962A46"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "geolosys:field_manual"
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "pneumaticcraft:book"
+				}
+			}
+			x: 16.0d
+			y: -1.0d
+			shape: "gear"
+			dependencies: ["4517C37B082C1D5E"]
+			can_repeat: true
+			id: "2D5ACD1CB0EDAB80"
+			tasks: [{
+				id: "3D90075013E0839F"
+				type: "checkmark"
+				title: "Pneumaticcraft"
+			}]
+			rewards: [{
+				id: "24F760F4A7BDBC55"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "pneumaticcraft:book"
+					}
+				}
+			}]
+		}
+		{
+			title: "All Books from mods"
+			x: 14.0d
+			y: 0.5d
+			shape: "gear"
+			subtitle: "All repeateable"
+			dependencies: ["6F1790336272430D"]
+			hide: true
+			id: "4517C37B082C1D5E"
+			tasks: [{
+				id: "5D1D741F643514E7"
+				type: "checkmark"
+				title: "Mod Book"
+			}]
+			rewards: [{
+				id: "0210EA52D1587035"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "apotheosis:apoth_chronicle"
+				}
+			}
+			x: 16.0d
+			y: 1.0d
+			shape: "gear"
+			dependencies: ["4517C37B082C1D5E"]
+			can_repeat: true
+			id: "0F089804B0D9DE28"
+			tasks: [{
+				id: "6A6A316C54A19179"
+				type: "checkmark"
+				title: "Apotheosis"
+			}]
+			rewards: [{
+				id: "3DCF8CC4B03BE9FF"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "apotheosis:apoth_chronicle"
+					}
+				}
+			}]
+		}
+		{
+			title: "Engineer's Decor"
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "engineersdecor:engineersdecor_manual"
+				}
+			}
+			x: 16.0d
+			y: 2.0d
+			shape: "gear"
+			dependencies: ["4517C37B082C1D5E"]
+			can_repeat: true
+			id: "2B5949EF2ACE708F"
+			tasks: [{
+				id: "27B8346ED5284D78"
+				type: "checkmark"
+				title: "Engineer decor"
+			}]
+			rewards: [{
+				id: "0785AFB3C71FBFFF"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "engineersdecor:engineersdecor_manual"
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "storagenetwork:network_book"
+				}
+			}
+			x: 16.0d
+			y: -2.0d
+			shape: "gear"
+			dependencies: ["4517C37B082C1D5E"]
+			can_repeat: true
+			id: "506EF03E817CB04D"
+			tasks: [{
+				id: "7AB4AAD5314C6FA2"
+				type: "checkmark"
+				title: "Simple Storage"
+			}]
+			rewards: [{
+				id: "58EF8899A6C96E1C"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "storagenetwork:network_book"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 6.0d
+			subtitle: "Can drop everything on this pack but can kill you!"
+			dependencies: ["3936D7805996F2A0"]
+			id: "77BE1BE2FFE6AEAE"
+			tasks: [
+				{
+					id: "5C9B7862B161AEF8"
+					type: "item"
+					item: "randomium:randomium_ore"
+				}
+				{
+					id: "219B535A7DD576D8"
+					type: "item"
+					item: "randomium:randomium_ore_deepslate"
+				}
+			]
+			rewards: [{
+				id: "5F6FB556256F8651"
+				type: "random"
+				table_id: 893746641103849497L
+			}]
+		}
+		{
+			title: "Mimics"
+			x: 4.5d
+			y: 5.0d
+			subtitle: "Chest or not Chest? \\nThis is the question"
+			dependencies: ["3936D7805996F2A0"]
+			id: "2FCAC54B5F9CC04B"
+			tasks: [{
+				id: "27F2F3102B4FB393"
+				type: "kill"
+				icon: "artifacts:mimic_spawn_egg"
+				entity: "artifacts:mimic"
+				value: 1L
+			}]
+			rewards: [{
+				id: "400F13766869AC09"
+				type: "random"
+				table_id: 3405488285271889572L
+			}]
+		}
+		{
+			title: "Twilight Forest"
+			icon: "twilightforest:hollow_oak_sapling"
+			x: 10.0d
+			y: 5.0d
+			shape: "gear"
+			subtitle: "Create a pool of water and flowers and drop on it a diamond"
+			dependencies: ["1DF411377D002E1E"]
+			size: 2.0d
+			id: "586664A1B8BF252F"
+			tasks: [{
+				id: "33AF6204FEC148A4"
+				type: "dimension"
+				dimension: "twilightforest:twilight_forest"
+			}]
+			rewards: [{
+				id: "497CF30C687D7524"
+				type: "item"
+				item: "twilightforest:magic_map"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 3.5d
+			dependencies: ["6F1790336272430D"]
+			id: "1DF411377D002E1E"
+			tasks: [{
+				id: "74D735ADE8CCFBC0"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+			rewards: [{
+				id: "5CBC0088F12C5142"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "To the Hell"
+			icon: "minecraft:netherrack"
+			x: 6.0d
+			y: 5.0d
+			shape: "gear"
+			dependencies: ["257082C01DB61FB4"]
+			size: 2.0d
+			id: "582ACB65790BA7CE"
+			tasks: [{
+				id: "64E19D6ACFE8287D"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [{
+				id: "2FC84FB097170C59"
+				type: "random"
+				table_id: 3405488285271889572L
+			}]
+		}
+		{
+			title: "End at now!"
+			icon: "minecraft:dragon_head"
+			x: 13.0d
+			y: 5.0d
+			shape: "gear"
+			dependencies: ["46C2810E8F0E8B0F"]
+			size: 2.0d
+			id: "575C2DED20300762"
+			tasks: [{
+				id: "4E4EF29BA1C22A32"
+				type: "dimension"
+				dimension: "minecraft:the_end"
+			}]
+			rewards: [{
+				id: "12ED58795C906DDB"
+				type: "random"
+				table_id: 3405488285271889572L
+			}]
+		}
+		{
+			title: "The start of the end"
+			x: 13.0d
+			y: 3.5d
+			subtitle: "Time to find a stronghold"
+			dependencies: ["6F1790336272430D"]
+			id: "46C2810E8F0E8B0F"
+			tasks: [{
+				id: "74F0176289F3D1A1"
+				type: "item"
+				item: "minecraft:ender_eye"
+			}]
+			rewards: [{
+				id: "689215244709C9AE"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Diamond to Obsidian or Iron to Obsidian"
+			x: 6.0d
+			y: 3.5d
+			subtitle: "*Speedrunner moment*"
+			dependencies: ["6F1790336272430D"]
+			id: "257082C01DB61FB4"
+			tasks: [{
+				id: "0B1D652FA19328B3"
+				type: "observation"
+				title: "Observe Obsidian"
+				icon: "minecraft:obsidian"
+				timer: 0L
+				observe_type: 0
+				to_observe: "minecraft:obsidian"
+			}]
+			rewards: [{
+				id: "74BF6BBD2D1B4FD6"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "A box from the ocean"
+			x: 6.0d
+			y: 1.0d
+			subtitle: "Fishing on ocean could be a better way to obtain stuff without exploring"
+			dependencies: ["5AA60C98E5CB64B3"]
+			id: "6FBB97B5A37EEF3F"
+			tasks: [{
+				id: "5E357CB6F6B5193D"
+				type: "item"
+				item: "aquaculture:neptunes_bounty"
+			}]
+			rewards: [{
+				id: "7EFD6C416E080185"
+				type: "random"
+				table_id: 893746641103849497L
+			}]
+		}
+		{
+			title: "Wandering Trader"
+			x: -1.5d
+			y: -1.0d
+			subtitle: "Llama Trader"
+			dependencies: ["6F1790336272430D"]
+			id: "04A0D82DD25E02EC"
+			tasks: [{
+				id: "38DC0673A40A1242"
+				type: "observation"
+				title: "Look a wandering trader"
+				icon: "minecraft:wandering_trader_spawn_egg"
+				timer: 0L
+				observe_type: 5
+				to_observe: "minecraft:wandering_trader"
+			}]
+			rewards: [{
+				id: "1110C8F7C3D8CEBF"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "Villager"
+			x: 0.5d
+			y: 4.0d
+			subtitle: "Classic trade"
+			dependencies: ["6F1790336272430D"]
+			id: "6A435E017654BF5D"
+			tasks: [{
+				id: "2B7A340F1AA7C8AF"
+				type: "observation"
+				title: "Look a Villager"
+				icon: "artifacts:villager_hat"
+				timer: 0L
+				observe_type: 5
+				to_observe: "minecraft:villager"
+			}]
+			rewards: [{
+				id: "286605177E6E85BF"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.5d
+			subtitle: "Dont right click on a chest with a ballon without change color! Could be fly away!"
+			dependencies: ["6A435E017654BF5D"]
+			id: "70DC51993D0EAC73"
+			tasks: [{
+				id: "49C44897BD78DE24"
+				type: "observation"
+				title: "Time to upgrade my storage mesh"
+				icon: "cloudstorage:balloon_stand"
+				timer: 0L
+				observe_type: 0
+				to_observe: "cloudstorage:ballon_stand"
+			}]
+			rewards: [{
+				id: "3A8081A79D7A00A4"
+				type: "item"
+				item: "cloudstorage:balloon"
+				count: 4
+			}]
+		}
+		{
+			title: "Free leads!"
+			x: -1.5d
+			y: 0.5d
+			dependencies: ["04A0D82DD25E02EC"]
+			id: "29DFA38CC8FE3BD1"
+			tasks: [{
+				id: "5CAF986CB5EAABB4"
+				type: "item"
+				item: "minecraft:lead"
+			}]
+		}
+		{
+			title: "Ehi ! I want you with me!"
+			icon: "minecraft:smithing_table"
+			x: -1.5d
+			y: 4.0d
+			dependencies: ["6A435E017654BF5D"]
+			id: "3B75341DDF32762A"
+			tasks: [{
+				id: "172FF761293F5207"
+				type: "item"
+				item: "easy_villagers:villager"
+			}]
+			rewards: [{
+				id: "553E487204E2DB7D"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: {
+				id: "hexerei:book_of_shadows"
+				Count: 1b
+				tag: { }
+			}
+			x: 16.0d
+			y: 3.0d
+			shape: "gear"
+			dependencies: ["4517C37B082C1D5E"]
+			can_repeat: true
+			id: "50C58374DAD3B7E3"
+			tasks: [{
+				id: "606DA26D9E5CF002"
+				type: "checkmark"
+				title: "Hexerei"
+			}]
+			rewards: [{
+				id: "5841E1BA925B680B"
+				type: "item"
+				item: {
+					id: "hexerei:book_of_shadows"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 5.5d
+			dependencies: ["6A435E017654BF5D"]
+			hide: true
+			id: "0AD67C68B2727D52"
+			tasks: [{
+				id: "3B11506BFB5D0DD7"
+				type: "observation"
+				title: "Observe a Chargin Station"
+				icon: "pneumaticcraft:charging_station"
+				timer: 0L
+				observe_type: 0
+				to_observe: "pneumaticcraft:charging_station"
+			}]
+			rewards: [{
+				id: "7277791DF895FAFE"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Water stuff"
+			icon: "minecraft:water_bucket"
+			x: 6.0d
+			y: -0.5d
+			subtitle: "Water is more powerful!"
+			dependencies: ["6F1790336272430D"]
+			id: "5AA60C98E5CB64B3"
+			tasks: [{
+				id: "5FC273D5DA9CC76F"
+				type: "checkmark"
+				title: "Ok"
+			}]
+			rewards: [{
+				id: "34FEB17725514A89"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			subtitle: "Rivers are full of resource!"
+			dependencies: ["5AA60C98E5CB64B3"]
+			id: "41DFCAF344C587CB"
+			tasks: [{
+				id: "0D38093F8D1748EA"
+				type: "observation"
+				title: "Observe a treasure sand on river"
+				icon: "river_treasures:sand_treasure"
+				timer: 0L
+				observe_type: 0
+				to_observe: "river_treasure:sand_treasure"
+			}]
+			rewards: [{
+				id: "5444135292971D67"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "A good start right?"
+			icon: "minecraft:grass_block"
+			x: 3.0d
+			y: 5.0d
+			dependencies: ["6F1790336272430D"]
+			size: 2.0d
+			id: "3936D7805996F2A0"
+			tasks: [{
+				id: "7125F6931A9599F1"
+				type: "dimension"
+				dimension: "minecraft:overworld"
+			}]
+			rewards: [{
+				id: "2368715B2BC9484D"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "A bed more powerful !"
+			x: 0.5d
+			y: -1.0d
+			dependencies: ["6F1790336272430D"]
+			id: "67F6703DDD3E3D13"
+			tasks: [{
+				id: "1B9D6DD74502998F"
+				type: "item"
+				item: "minecraft:campfire"
+			}]
+			rewards: [{
+				id: "4223D3F7AAB85BBF"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.5d
+			subtitle: "Campfire can heal you if lit up , set your spawn on any dimension , help you during night bloodmoons and can be crafted without crafting table!"
+			dependencies: ["67F6703DDD3E3D13"]
+			id: "0A998127731AC798"
+			tasks: [{
+				id: "30F357CD61B941F4"
+				type: "checkmark"
+				title: "Info"
+			}]
+			rewards: [{
+				id: "10C1AA46E4CDD69D"
+				type: "item"
+				item: {
+					id: "minecraft:flint_and_steel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 5.0d
+			subtitle: "Actived nether portal can spread! Only way to stop a opened portal require a crafting with 9 slots!"
+			dependencies: ["582ACB65790BA7CE"]
+			id: "196154455D370DD3"
+			tasks: [{
+				id: "1F1543B745D7D517"
+				type: "checkmark"
+				title: "It spread !"
+			}]
+			rewards: [{
+				id: "78246574B41E8586"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "No more light?"
+			icon: "minecraft:light_gray_candle"
+			x: 2.5d
+			y: -1.0d
+			subtitle: "Torches and lanterns can burn out!"
+			dependencies: ["6F1790336272430D"]
+			id: "00B94C0EB3B14524"
+			tasks: [{
+				id: "706E96BAE4C47171"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "189A7211F5999480"
+				type: "item"
+				item: "hardcore_torches:unlit_soul_lantern"
+			}]
+		}
+		{
+			title: "Do you want guns?"
+			x: 0.5d
+			y: 2.5d
+			dependencies: ["6F1790336272430D"]
+			id: "78EED300D1E0E580"
+			tasks: [{
+				id: "783B72D1FE8D9E3A"
+				type: "item"
+				item: "cgm:workbench"
+			}]
+			rewards: [
+				{
+					id: "426BB8610626576F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "566CE58A27583FE2"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 16
+				}
+				{
+					id: "0764A87B85148752"
+					type: "item"
+					item: "minecraft:gunpowder"
+					count: 64
+				}
+			]
+		}
+		{
+			title: "All of you need is Trading!"
+			icon: "pneumaticcraft:pressure_gauge"
+			x: 0.5d
+			y: 7.0d
+			subtitle: "JEI best friend"
+			dependencies: ["0AD67C68B2727D52"]
+			id: "1584C33D8846D74C"
+			tasks: [
+				{
+					id: "62DF9E3FE80B7456"
+					type: "item"
+					item: "pneumaticcraft:compressed_iron_block"
+				}
+				{
+					id: "09FB1EE31ADABF5D"
+					type: "item"
+					item: "pneumaticcraft:printed_circuit_board"
+				}
+			]
+			rewards: [{
+				id: "43F3E86C35022FB3"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Straw golem!"
+			icon: "strawgolem:straw_hat"
+			x: 6.0d
+			y: -4.0d
+			subtitle: "Place a carved pumpking on top of a hay bale to summon a straw golem!"
+			dependencies: ["6F1790336272430D"]
+			id: "60F417BFF89DEA20"
+			tasks: [
+				{
+					id: "256C247F07E4102A"
+					type: "item"
+					item: "minecraft:hay_block"
+				}
+				{
+					id: "2D3FA45EA2E6C5F2"
+					type: "item"
+					item: "minecraft:carved_pumpkin"
+				}
+			]
+			rewards: [{
+				id: "4FD04890E8D33C2B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Poor guy"
+			icon: "alexsmobs:potted_flutter"
+			x: 2.5d
+			y: 0.5d
+			subtitle: "This guy spawn on lush caves , you can feed with differents flowers to tame , after you need to click with a pot to pickup"
+			dependencies: ["6F1790336272430D"]
+			id: "3914A3E787C35007"
+			tasks: [{
+				id: "1826EBEF9044361F"
+				type: "item"
+				item: "alexsmobs:potted_flutter"
+			}]
+			rewards: [{
+				id: "07C49F6AEE500F42"
+				type: "item"
+				item: "minecraft:flower_pot"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 7.0d
+			dependencies: ["582ACB65790BA7CE"]
+			hide: true
+			id: "62E3ED81CED15FA9"
+			tasks: [{
+				id: "473AE0B6E04ED163"
+				type: "structure"
+				title: "Find a fortress"
+				icon: "minecraft:nether_bricks"
+				structure: "minecraft:fortress"
+			}]
+			rewards: [{
+				id: "733EA8A5CF98B738"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "A very useful block"
+			x: 8.0d
+			y: 1.0d
+			subtitle: "You can bind any block with a entangled binder and a entangled block to connect without limits"
+			dependencies: ["6F1790336272430D"]
+			id: "6BF8AD3E50195DE5"
+			tasks: [
+				{
+					id: "3B1495E060A0CDBB"
+					type: "item"
+					item: {
+						id: "entangled:block"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "72E35367A73B074E"
+					type: "item"
+					item: {
+						id: "entangled:item"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "133146B6589B2F45"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.5d
+			subtitle: "Need of blood? Jump into a cauldron with them and wait !"
+			dependencies: ["137E122BCC215372"]
+			id: "63ACEFB1454A89C7"
+			tasks: [{
+				id: "6EEA7839849C2E78"
+				type: "item"
+				item: "hexerei:blood_sigil"
+			}]
+			rewards: [{
+				id: "186EAACDBB44E627"
+				type: "xp"
+				xp: 100
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,782 @@
+{
+	id: "7A88A1BD794408C1"
+	order_index: 3
+	title: "tools"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "minecraft:iron_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:iron_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:iron_shovel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:iron_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "twilightforest:ironwood_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						lvl: 1s
+						id: "minecraft:efficiency"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "pneumaticcraft:compressed_iron_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "twilightforest:ironwood_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						lvl: 1s
+						id: "minecraft:knockback"
+					}]
+				}
+			}
+		}
+		{ item: "silentgear:crimson_iron_ingot" }
+		{
+			item: {
+				id: "twilightforest:knightmetal_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:pickarang"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "twilightforest:giant_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "twilightforest:steeleaf_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						lvl: 2s
+						id: "minecraft:efficiency"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "evilcraft:vein_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						lvl: 2s
+						id: "minecraft:looting"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "create:potato_cannon"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "environmental:architect_belt"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "environmental:thief_hood"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "quark:torch_arrow" }
+		{
+			item: {
+				id: "minecraft:trident"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "ae2:entropy_manipulator"
+				Count: 1b
+				tag: {
+					internalCurrentPower: 200000.0d
+				}
+			}
+		}
+		{ item: "strawgolem:straw_hat" }
+		{
+			item: {
+				id: "minecraft:turtle_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "obscure_api:vial_of_knowledge" }
+		{
+			item: {
+				id: "supplementaries:rope_arrow"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "supplementaries:rope_arrow"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "evilcraft:broom"
+				Count: 1b
+				tag: {
+					Fluid: {
+						FluidName: "evilcraft:blood"
+						Amount: 10000
+					}
+					capacity: 10000
+				}
+				ForgeCaps: {
+					Parent: {
+						FluidName: "evilcraft:blood"
+						Amount: 10000
+						capacity: 10000
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "ae2:fluix_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:compass"
+				Count: 1b
+				tag: {
+					"quark:compass_calculated": 1b
+					"quark:compass_in_nether": 0b
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:shears"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:fishing_rod"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:clock"
+				Count: 1b
+				tag: {
+					"quark:clock_calculated": 1b
+				}
+			}
+		}
+		{ item: "minecraft:spyglass" }
+		{ item: "minecraft:bundle" }
+		{
+			item: {
+				id: "ae2:fluix_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "naturescompass:naturescompass"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "spelunkery:item_magnet"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "supplementaries:quiver"
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Size: 6
+						Items: [ ]
+						SelectedSlot: 0
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "environmental:healer_pouch"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "environmental:wanderer_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "supplementaries:wrench"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "supplementaries:flute"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "supplementaries:slingshot"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "supplementaries:bubble_blower"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spelunkery:magnetic_compass"
+				Count: 1b
+				tag: {
+					magnetiteDimension: "minecraft:overworld"
+					zed: -41
+					ex: -35
+					magnetitePos: {
+						X: -94
+						Y: 29
+						Z: -108
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "spelunkery:nephrite_charm"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{ item: "minecraft:totem_of_undying" }
+		{ item: "supplementaries:bomb_blue" }
+		{ item: "quark:bottled_cloud" }
+		{
+			item: {
+				id: "quark:echorang"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:flamerang"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "environmental:yak_pants"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "hunterillager:boomerang"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:forgotten_hat"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "ae2:portable_item_cell_256k"
+				Count: 1b
+				tag: {
+					internalMaxPower: 340000.0d
+					upgrades: [
+						{
+							Slot: 0
+							id: "ae2:energy_card"
+							Count: 1b
+						}
+						{
+							Slot: 1
+							id: "ae2:energy_card"
+							Count: 1b
+						}
+					]
+					internalCurrentPower: 340000.0d
+				}
+			}
+		}
+		{
+			item: {
+				id: "alexsmobs:unsettling_kimono"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "alexsmobs:ghostly_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "alexsmobs:hemolymph_blaster"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "alexsmobs:ancient_dart" }
+		{
+			item: {
+				id: "alexsmobs:blood_sprayer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "alexsmobs:roadrunner_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "alexsmobs:novelty_hat"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "alexsmobs:stink_ray"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "alexsmobs:straddleboard"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "alexsmobs:emu_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "alexsmobs:pocket_sand"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "alexsmobs:spiked_turtle_shell"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "alexsmobs:squid_grapple"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "alexsmobs:pupfish_locator"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "alexsmobs:rocky_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "alexsmobs:froststalker_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "alexsmobs:shield_of_the_deep"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "alexsmobs:sombrero"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "alexsmobs:frontier_cap"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "alexsmobs:moose_headgear"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "alexsmobs:centipede_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "alexsmobs:flying_fish_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "alexsmobs:skelewag_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "alexsmobs:endolocator"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "alexsmobs:echolocator"
+				Count: 1b
+				tag: {
+					CavePos: -9345848860637L
+					Damage: 0
+					ValidCavePos: 1b
+				}
+			}
+		}
+		{
+			item: {
+				id: "alexsmobs:crocodile_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "alexsmobs:fedora"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "alexsmobs:tendon_whip"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "alexsmobs:tarantula_hawk_elytra"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "ae2:portable_item_cell_256k"
+				Count: 1b
+				tag: {
+					internalMaxPower: 340000.0d
+					upgrades: [
+						{
+							Slot: 0
+							id: "ae2:energy_card"
+							Count: 1b
+						}
+						{
+							Slot: 1
+							id: "ae2:energy_card"
+							Count: 1b
+						}
+					]
+					internalCurrentPower: 340000.0d
+				}
+			}
+		}
+		{
+			item: {
+				id: "evilcraft:vengeance_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 3s
+							id: "evilcraft:vengeance"
+						}
+						{
+							lvl: 5s
+							id: "minecraft:fortune"
+						}
+					]
+				}
+			}
+		}
+		{
+			item: {
+				id: "rootsclassic:engraved_blade"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "rootsclassic:living_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "rootsclassic:sylvan_robe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+}
