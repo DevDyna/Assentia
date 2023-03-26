@@ -456,6 +456,154 @@ event.stonecutting('ae2:terminal','#forge:better_table')
 			"to": "artifacts:mimic"
 	})
 	
+	//raw iron brick
+	event.custom({
+	"type": "twilightforest:crumble_horn",
+	"from": "minecraft:iron_block",
+	"to": "quark:raw_iron_bricks"
+	})
+	//raw iron
+		event.custom({
+	"type": "twilightforest:crumble_horn",
+	"from": "quark:raw_iron_bricks",
+	"to": "minecraft:raw_iron_block"
+	})
+	
+	//raw copper brick
+		event.custom({
+	"type": "twilightforest:crumble_horn",
+	"from": "minecraft:copper_block",
+	"to": "quark:raw_copper_bricks"
+	})
+	//raw copper
+			event.custom({
+	"type": "twilightforest:crumble_horn",
+	"from": "quark:raw_copper_bricks",
+	"to": "minecraft:raw_copper_block"
+	})
+	
+		//raw gold
+		event.custom({
+	"type": "twilightforest:crumble_horn",
+	"from": "minecraft:gold_block",
+	"to": "quark:raw_gold_bricks"
+	})
+	//raw gold
+			event.custom({
+	"type": "twilightforest:crumble_horn",
+	"from": "quark:raw_gold_bricks",
+	"to": "minecraft:raw_gold_block"
+	})
+	
+	
+	event.custom({
+  "type": "ae2:transform",
+  "circumstance": {
+    "type": "explosion"
+  },
+  "ingredients": [
+    {
+      "tag": "minecraft:anvil"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "item": "minecraft:iron_block"
+  }
+
+	})
+	
+	
+	
+	//blood transformation
+	event.custom({
+  "type": "homespun:evaporating",
+  "output_item": {
+    "item": "evilcraft:condensed_blood",
+	"count": 10
+  },
+  "fluid_stack": {
+    "fluid": "hexerei:blood_fluid",
+    "amount": 1000
+  },
+  "time": 100
+})
+		event.custom({
+  "type": "homespun:evaporating",
+  "output_item": {
+    "item": "evilcraft:condensed_blood",
+	"count": 10
+  },
+  "fluid_stack": {
+    "fluid": "vampirism:blood",
+    "amount": 1000
+  },
+  "time": 100
+})
+			event.custom({
+  "type": "homespun:evaporating",
+  "output_item": {
+    "item": "evilcraft:condensed_blood",
+	"count": 10
+  },
+  "fluid_stack": {
+    "fluid": "vampirism:impure_blood",
+    "amount": 1000
+  },
+  "time": 100
+})
+	//raw ores manual
+	event.custom({
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "minecraft:deepslate_iron_ore"
+    },
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:raw_iron_block"
+    }
+  ]
+})
+	event.custom({
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "minecraft:deeplsate_gold_ore"
+    },
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:raw_gold_block"
+    }
+  ]
+})
+		event.custom({
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "minecraft:deepslate_copper_ore"
+    },
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:raw_copper_block"
+    }
+  ]
+})
+	
+	
+	
 	
 
 })
